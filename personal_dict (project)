@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Dictionary</title>
+</head>
+<body>
+
+  <header>
+    <h1>📘 Personal Dictionary</h1>
+    <p>Type a word to explore its meaning (for now, manual)</p>
+  </header>
+
+  <main>
+
+    <section>
+      <form action="#">
+        <label for="word">Enter a word:</label><br>
+        <input type="text" id="word" name="word" placeholder="e.g. innovation" required>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Word: <strong>Innovation</strong></h2>
+      <p><em>Definition:</em> The introduction of something new; a new idea, method, or device.</p>
+      <p><em>Part of Speech:</em> Noun</p>
+      <p><em>Example:</em> "Innovation drives progress in technology and society."</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Venu's Dictionary</p>
+  </footer>
+
+</body>
+</html>

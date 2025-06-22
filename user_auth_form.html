@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+</head>
+<body>
+
+  <form action="/server">
+
+    <div>
+      <label for="name">Name:</label>
+      <input id="name" type="text" name="name" placeholder="Your full name" required>
+    </div>
+
+    <div>
+      <p>Sex:</p>
+      <input type="radio" name="sex" id="male" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" name="sex" id="female" value="female">
+      <label for="female">Female</label>
+    </div>
+
+    <div>
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option disabled selected>Select an option</option>
+        <option value="India">India</option>
+        <option value="Canada">Canada</option>
+        <option value="Swiss">Swiss</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..." required></textarea>
+    </div>
+
+    <div>
+      <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+      <label for="subscribe">Subscribe?</label>
+    </div>
+
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+
+  </form>
+
+</body>
+</html>
